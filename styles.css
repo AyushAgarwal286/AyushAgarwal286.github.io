@@ -1,0 +1,22 @@
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8; }
+.card{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.btn{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.english{
+  background-color: #008ed6;
+}
+.video{
+  margin: auto;
+  width: 50%;
+  padding: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+h2{
+  color:white;
+}
