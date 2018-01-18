@@ -21,6 +21,10 @@
   margin: auto;
   width: 50%;
 }
+.buttons a, .buttons a:link{
+  color: white;
+  text-decoration: none;
+}
 .box4 a, .box4 a:link {
     color: white;
     text-decoration: none;
