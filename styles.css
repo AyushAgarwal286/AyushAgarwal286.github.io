@@ -37,6 +37,10 @@
     color: white;
     text-decoration: none;
 }
+.box8 a, .box8 a:link {
+    color: white;
+    text-decoration: none;
+}
 .box2{
   text-align:center;
   background-color: #a5c7ff;
