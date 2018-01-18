@@ -1,6 +1,12 @@
+.box4 a:link{
+  color:white;
+}
+#movearound{
+  overflow: hidden;
+}
 .navbar {
   border-bottom: #008ed6 3px solid;
-  opacity: 0.8; }
+  opacity: 0.9; }
 .card{
   background-color: rgba(0, 0, 0, 0.7);
 }
@@ -14,9 +20,172 @@
 .video{
   margin: auto;
   width: 50%;
-  padding: 100px;
-  background-color: rgba(0, 0, 0, 0.7);
 }
-h2{
-  color:white;
+.box4 a, .box4 a:link {
+    color: white;
+    text-decoration: none;
+}
+.box5 a, .box5 a:link {
+    color: white;
+    text-decoration: none;
+}
+.box6 a, .box6 a:link {
+    color: white;
+    text-decoration: none;
+}
+.box7 a, .box7 a:link {
+    color: white;
+    text-decoration: none;
+}
+.box2{
+  text-align:center;
+  background-color: #a5c7ff;
+  font-family: 'Supermercado One', cursive;
+  font-style: italic;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.box3{
+  font-family: 'Arvo', serif;
+  text-align:center;
+  background-color: #4687f2;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.box4{
+  font-family: 'Joti One', cursive;
+  background-color: #0082fc;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align:center;
+}
+.box5{
+  font-family: 'Joti One', cursive;
+  background-color: #0061ff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align:center;
+}
+
+.box6{
+  font-family: 'Joti One', cursive;
+  background-color: #0004ff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align:center;
+}
+
+.box7{
+  font-family: 'Joti One', cursive;
+  background-color: #0044ba;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align:center;
+}
+.box8{
+  font-family: 'Joti One', cursive;
+  background-color: #00348e;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align:center;
+}
+
+.card:hover {
+  transform:scale(1.5);
+  opacity: 0.3;
+}
+
+.modal-login {
+  color: #636363;
+}
+.modal-login .modal-content {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+}
+.modal-login .modal-header {
+  border-bottom: none;
+  position: relative;
+  justify-content: center;
+}
+.modal-login h4 {
+  text-align: center;
+  font-size: 26px;
+  margin: 30px 0 -15px;
+}
+.modal-login  .form-group {
+  position: relative;
+}
+.modal-login i {
+  position: absolute;
+  left: 13px;
+  top: 11px;
+  font-size: 18px;
+}
+.modal-login .form-control {
+  padding-left: 40px;
+}
+.modal-login .form-control:focus {
+  border-color: #70c5c0;
+}
+.modal-login .form-control, .modal-login .btn {
+  min-height: 40px;
+  border-radius: 3px;
+}
+.modal-login .close {
+      position: absolute;
+  top: -5px;
+  right: -5px;
+}
+.modal-login .modal-footer {
+  background: #ecf0f1;
+  border-color: #dee4e7;
+  text-align: center;
+  justify-content: center;
+  margin: 0 -20px -20px;
+  border-radius: 5px;
+  font-size: 13px;
+}
+.modal-login .modal-footer a {
+  color: #999;
+}
+
+
+.modal-login .avatar {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -70px;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  z-index: 9;
+  background: #008ed6;
+  padding: 15px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.modal-login .avatar img {
+  width: 100%;
+}
+.modal-login.modal-dialog {
+  margin-top: 80px;
+}
+  .modal-login .btn {
+      color: #fff;
+      border-radius: 4px;
+  background: #008ed6;
+  text-decoration: none;
+  transition: all 0.4s;
+      line-height: normal;
+      border: none;
+  }
+.modal-login .btn:hover, .modal-login .btn:focus {
+  background: #006aa0;
+  outline: none;
+}
+.trigger-btn {
+  display: inline-block;
+  margin: 100px auto;
 }
