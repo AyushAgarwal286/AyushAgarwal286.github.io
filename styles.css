@@ -1,26 +1,14 @@
-.box4 a:link{
-  color:white;
-}
 #movearound{
   overflow: hidden;
 }
 .navbar {
   border-bottom: #008ed6 3px solid;
   opacity: 0.9; }
-.card{
-  background-color: rgba(0, 0, 0, 0.7);
-}
+
 .btn{
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.english{
-  background-color: #008ed6;
-}
-.video{
-  margin: auto;
-  width: 50%;
-}
 .buttons a, .buttons a:link{
   color: white;
   text-decoration: none;

@@ -1,0 +1,52 @@
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.9; }
+
+
+  @media only screen and (max-width: 559px) {
+  .videoWrapper {
+  	position: relative;
+  	padding-bottom: 56.25%; /* 16:9 */
+  	padding-top: 25px;
+  	height: 0;
+    overflow:hidden;
+    margin:auto;
+    background: radial-gradient(#0289ff,#0b0093);
+  }
+  .videoWrapper iframe {
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+    background: radial-gradient(#0289ff,#0b0093);
+  }
+  h1.vid
+  {
+    text-align: left;
+    font-family: 'Quando', serif;
+    background:linear-gradient(#0289ff,#0b0093);*
+  }
+  }
+  @media only screen and (min-width: 560px) {
+    .videoWrapper{
+    margin: auto;
+    width: 50%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: radial-gradient(#0289ff,#0b0093);
+
+  }
+  h1.vid
+  {
+    margin: auto;
+    width: 50%;
+    font-family: 'Quando', serif;
+    background:linear-gradient(#0289ff,#0b0093);*
+  }
+  }
+
+.english
+{
+  background: linear-gradient(#0289ff,#0e00bf);
+}
