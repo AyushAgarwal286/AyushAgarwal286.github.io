@@ -11,7 +11,7 @@
   	height: 0;
     overflow:hidden;
     margin:auto;
-    background: radial-gradient(#0289ff,#0b0093);
+    background: radial-gradient(#64b5f6,#0d47a1);
   }
   .videoWrapper iframe {
   	position: absolute;
@@ -19,13 +19,13 @@
   	left: 0;
   	width: 100%;
   	height: 100%;
-    background: radial-gradient(#0289ff,#0b0093);
+    background: radial-gradient(#64b5f6,#0d47a1);
   }
   h1.vid
   {
     text-align: left;
     font-family: 'Quando', serif;
-    background:linear-gradient(#0289ff,#0b0093);*
+    background:linear-gradient(#64b5f6,#0d47a1);
   }
   }
   @media only screen and (min-width: 560px) {
@@ -34,7 +34,7 @@
     width: 50%;
     padding-top: 80px;
     padding-bottom: 80px;
-    background: radial-gradient(#0289ff,#0b0093);
+    background: radial-gradient(#64b5f6,#0d47a1);
 
   }
   h1.vid
@@ -42,11 +42,11 @@
     margin: auto;
     width: 50%;
     font-family: 'Quando', serif;
-    background:linear-gradient(#0289ff,#0b0093);*
+    background:linear-gradient(#64b5f6,#0d47a1);
   }
   }
 
 .english
 {
-  background: linear-gradient(#0289ff,#0e00bf);
+  background: linear-gradient(#64b5f6,#0d47a1);
 }
